@@ -1,0 +1,14 @@
+[
+  {
+    "id": "minstr",
+    "label": "Min Strength",
+    "type": "strength",
+    "rarity": "common"
+  },
+  {
+    "id": "maxstr",
+    "label": "Max Strength",
+    "type": "strength",
+    "rarity": "common"
+  }
+]

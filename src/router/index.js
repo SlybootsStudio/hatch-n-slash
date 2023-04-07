@@ -1,11 +1,28 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Main from "../views/Main.vue";
-
+import MainView from "@/views/Main.vue";
+import EggView from "@/views/EggView.vue";
+import CaveView from "@/views/CaveView.vue";
+import DragonView from "@/views/DragonView.vue";
 const routes = [
   {
     path: "/",
     name: "Main",
-    component: Main
+    component: MainView
+  },
+  {
+    path: "/egg",
+    name: "Egg",
+    component: EggView
+  },
+  {
+    path: "/cave",
+    name: "Cave",
+    component: CaveView
+  },
+  {
+    path: "/dragon",
+    name: "Dragon",
+    component: DragonView
   }
 ];
 

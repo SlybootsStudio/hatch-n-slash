@@ -6,10 +6,10 @@
           <span class="mb-0 h5">
             <img
               src="@/assets/logo.svg"
-              height="60"
-              class="align-text-middle"
+              height="40"
+              class="align-text-middle my-1"
             />
-            Hatch 'n Slash'</span
+            Hatch 'n Slash</span
           >
         </div>
         <div class="gold-wrapper mt-3 text-end">

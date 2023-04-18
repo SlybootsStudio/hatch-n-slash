@@ -25,13 +25,30 @@
       generation).
     </li>
 
-    <h5 class="mt-5">Prestige</h5>
-    <li>We have an egg.</li>
-    <li>Egg is generated randomly.</li>
-    <li>Common, Rare types. Add more types in the future.</li>
-    <li>The egg is the prestige system.</li>
-    <li>Hatching the egg retires your current dragon.</li>
+    <h5 class="mt-5">Dragon cycle</h5>
+    <li>Hatch the egg.</li>
+    <li>Dragon grows.</li>
+    <li>Dragon can 'reincarnate' into a soulstone, and become a new egg.</li>
+    <li>The dragon has a multiplier.</li>
   </ul>
+
+  <br />
+
+  <table>
+    <tr>
+      <td class="align-middle">
+        <button class="btn btn-outline-secondary">A</button>
+      </td>
+      <td>
+        <button class="btn btn-outline-secondary">Aa</button><br />
+        <button class="btn btn-outline-secondary">Ab</button>
+      </td>
+      <td>
+        <button class="btn btn-outline-secondary">Aa</button><br />
+        <button class="btn btn-outline-secondary">Ab</button>
+      </td>
+    </tr>
+  </table>
 </template>
 
 <script>

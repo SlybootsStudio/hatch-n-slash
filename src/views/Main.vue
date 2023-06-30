@@ -34,18 +34,53 @@
 
   <br />
 
-  <table>
+  <table class="table table-bordered">
     <tr>
-      <td class="align-middle">
-        <button class="btn btn-outline-secondary">A</button>
+      <td class="align-middle" rowspan="4">
+        <button class="btn btn-outline-secondary w-100">T1</button>
       </td>
-      <td>
-        <button class="btn btn-outline-secondary">Aa</button><br />
-        <button class="btn btn-outline-secondary">Ab</button>
+    </tr>
+    <tr>
+      <td class="align-middle" rowspan="2">
+        <button class="btn btn-outline-secondary w-100">T2</button><br />
       </td>
+      <td class="align-middle" rowspan="2">
+        <button class="btn btn-outline-secondary w-100">T2</button>
+      </td>
+    </tr>
+    <tr rowspan="4">
       <td>
-        <button class="btn btn-outline-secondary">Aa</button><br />
-        <button class="btn btn-outline-secondary">Ab</button>
+        <button class="btn btn-outline-secondary w-100">T3</button><br />
+        <button class="btn btn-outline-secondary w-100">T3</button>
+      </td>
+    </tr>
+    <tr rowspan="4">
+      <td>
+        <button class="btn btn-outline-secondary w-100">T3</button><br />
+        <button class="btn btn-outline-secondary w-100">T3</button>
+      </td>
+    </tr>
+    <tr>
+      <td class="align-middle" rowspan="4">
+        <button class="btn btn-outline-secondary w-100">T1</button>
+      </td>
+    </tr>
+    <tr>
+      <td class="align-middle" rowspan="3">
+        <button class="btn btn-outline-secondary">T2</button><br />
+        <button class="btn btn-outline-secondary">T2</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-outline-secondary">T3</button><br />
+        <button class="btn btn-outline-secondary">T3</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-outline-secondary">T3</button><br />
+        <button class="btn btn-outline-secondary">T3</button>
       </td>
     </tr>
   </table>
